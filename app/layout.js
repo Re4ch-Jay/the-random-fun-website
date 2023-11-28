@@ -1,5 +1,6 @@
 import './globals.css'
 import React from 'react'
+import { banner } from './utils'
 
 
 export const metadata  = {
@@ -19,8 +20,8 @@ export const metadata  = {
     type: "website",
     images: [
       {
-        url: '/banner.png',
-        secureUrl: '/banner.png',
+        url: banner,
+        secureUrl: banner,
         width: 1200,
         height: 630,
         alt: 'Phat Panhareach',
@@ -36,7 +37,7 @@ export const metadata  = {
     description: "Welcome to the Random Fun Website Generator! Experience a delightful journey through the realms of the internet with just a click of a button.",
     creator: '@panhareach_phat',
     images: {
-      url: '/banner.png',
+      url: banner,
       alt: 'Phat Panhareach',
     }
   },
